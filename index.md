@@ -1,20 +1,25 @@
 ---
-title: How-to Guide landing page template
-type: template
-contributors: 
-description: Add a plain text description here.
-affiliations: 
+title: How-to Guides Hub
+affiliations: [Australian BioCommons]
 ---
 
 
 ## About 
 
-> Add 2-3 sentences here explaining the purpose of the specific guide you are creating.
+This central hub links out to step-by-step **How-to Guides**, and other associated documentation, that support the reuse of bioinformatics tools, workflows and data on Australian compute systems and infrastructure.
+
+{% include callout.html type="important" content="Want to create your own How-to Guide? See [this guide](https://australianbiocommons.github.io/how-to-guide-template/) for more information." %}
 
 
-## Guide sections
+## How-to Guide categories
 
-> You can use this section to add navigation tiles for the pages you have created as part of your guide.
+The How-to Guides are organised into the following categories:
+
+- [Genomics](genomics)
+- [Best practice documentation](documentation)
+- 
+
+{% include callout.html type="note" content="If you have an idea for a new How-to Guide, please visit the [contributing page]() for more information." %}
 
 
 ## Please cite this guide as follows
@@ -24,7 +29,7 @@ affiliations:
 
 ## Acknowledgements
 
-> Don't delete anything from this section, only add.
+This work is supported by the [Australian BioCommons](https://www.biocommons.org.au/) via funding from [Bioplatforms Australia](https://bioplatforms.com/), the Australian Research Data Commons (https://doi.org/10.47486/PL105) and the Queensland Government RICF programme. Bioplatforms Australia and the Australian Research Data Commons are funded by the National Collaborative Research Infrastructure Strategy (NCRIS).
 
 This guide makes use of the [ELIXIR toolkit theme](https://github.com/ELIXIR-Belgium/elixir-toolkit-theme)
 
