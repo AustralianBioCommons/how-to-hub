@@ -1,19 +1,7 @@
-# Notes on creating your own change log
+# How-to Guide Hub change log
 
-This is the change log for the `guide-template`. 
-To start writing a change log for your own How-to Guide, copy the structure below.
 
-```
-## version number
+## Version 1.0
 
-Details of the changes made since the last version
-```
+- Initial page content and structure
 
-# Guide template change log
-
-## v1.1
-
-- Move to ETT version 2.3
-- Add more template pages (workflow guides and workflow documentation)
-
-## Initial template version
