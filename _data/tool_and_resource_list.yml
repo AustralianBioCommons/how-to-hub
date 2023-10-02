@@ -1,8 +1,10 @@
 - id: genome-assembly-hifi
-  description: This How-to-Guide describes the steps required to assemble your genome on the Galaxy Australia platform, using multiple workflows developed in consultation between the Bioplatforms Australia Threatened Species Initiative, Galaxy Australia, and the Australian BioCommons.
+  description:
+    This How-to-Guide describes the steps required to assemble your genome on the Galaxy Australia platform, using multiple workflows developed in consultation between the Bioplatforms Australia Threatened Species Initiative, Galaxy Australia, and the Australian BioCommons.
   url: https://australianbiocommons.github.io/how-to-guides/genome_assembly/hifi_assembly
   name: Genome assembly with `hifiasm` on Galaxy Australia
 - id: genome-assembly-qc
-  description: Once a genome has been assembled, it is important to assess the quality of the assembly, and in the first instance, this quality control (QC) can be achieved using the workflow described here.
+  description:
+    Once a genome has been assembled, it is important to assess the quality of the assembly, and in the first instance, this quality control (QC) can be achieved using the workflow described here.
   url: https://australianbiocommons.github.io/how-to-guides/genome_assembly/assembly_qc
   name: Assess the quality of your genome assembly
