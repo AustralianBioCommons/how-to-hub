@@ -1,26 +1,24 @@
 ---
-title: How-to Hub
+title: Welcome to the How-to Hub
 affiliations: [Australian BioCommons]
 ---
 
-
-## About 
 
 This central hub links to step-by-step **How-to Guides**, and associated documents, that support the reuse of bioinformatics tools, workflows and data on Australian compute systems and digital research infrastructure.
 
 {% include callout.html type="important" content="Want to create your own How-to Guide? See [this guide](https://australianbiocommons.github.io/how-to-guide-template/) for more information." %}
 
 
-## How-to Guide categories
+## Categories
 
 The How-to Guides are organised into the following categories:
 
 {% include section-navigation-tiles.html type="category"%}
 
-{% include callout.html type="note" content="If you have an idea for a new How-to Guide, please visit the [contributing page](contributing) for more information." %}
+{% include callout.html type="note" content="If you have an idea for a new How-to Guide, or a new category, please visit the [contributing page](contributing) for more information." %}
 
 
-## Please cite this guide as follows
+## Please cite the How-to Hub resource as follows
 
 > [Citation information goes here]
 

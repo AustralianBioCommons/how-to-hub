@@ -1,5 +1,5 @@
 ---
-title: Documentation How-to Guides
+title: Documentation
 type: category
 description: 
 ---

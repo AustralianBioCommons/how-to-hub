@@ -1,5 +1,5 @@
 ---
-title: Genomics How-to Guides
+title: Genomics
 type: category
 page_id: genomics
 description: 
