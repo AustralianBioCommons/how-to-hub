@@ -19,6 +19,8 @@ The How-to Guides are organised into the following categories:
 - [Best practice documentation](documentation)
 - 
 
+{% include section-navigation-tiles.html type="category"%}
+
 {% include callout.html type="note" content="If you have an idea for a new How-to Guide, please visit the [contributing page]() for more information." %}
 
 
