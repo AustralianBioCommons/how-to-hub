@@ -7,4 +7,6 @@ subitems:
     url: /documentation
   - title: View all
     url: /all_guides
+  - title: Contributing
+    url: /contributing
   
