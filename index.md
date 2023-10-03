@@ -11,13 +11,6 @@ This central hub links to step-by-step **How-to Guides**, and associated documen
 
 {% include resource-table-all.html %}
 
-
-## Categories
-
-The How-to Guides are organised into the following categories:
-
-{% include section-navigation-tiles.html type="category"%}
-
 {% include callout.html type="note" content="If you have an idea for a new How-to Guide, or a new category, please visit the [contributing page](contributing) for more information." %}
 
 
