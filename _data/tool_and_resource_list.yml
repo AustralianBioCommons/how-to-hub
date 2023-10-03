@@ -8,3 +8,13 @@
     Once a genome has been assembled, it is important to assess the quality of the assembly, and in the first instance, this quality control (QC) can be achieved using the workflow described here.
   url: https://australianbiocommons.github.io/how-to-guides/genome_assembly/assembly_qc
   name: Assess the quality of your genome assembly
+- id: how-to-create-guide
+  description:
+    This web page describes How-to create new How-to Guide websites using a GitHub repository template.
+  url: https://australianbiocommons.github.io/how-to-guide-template/
+  name: How-to Guide for creating a How-to Guide
+- id: doc-guidelines
+  description:
+    The Australian BioCommons has been working with community bioinformaticians and our infrastructure partners to establish a guidelines repository that can act as a template for documentation of tools and workflows.
+  url: https://australianbiocommons.github.io/how-to-doc-guidelines/
+  name: How-to use the Australian BioCommons documentation guidelines

@@ -1,6 +1,7 @@
 ---
 title: Welcome to the How-to Hub
 affiliations: [Australian BioCommons]
+sidebar: false
 ---
 
 
