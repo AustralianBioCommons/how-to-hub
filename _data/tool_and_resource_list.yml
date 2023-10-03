@@ -3,18 +3,41 @@
     This How-to-Guide describes the steps required to assemble your genome on the Galaxy Australia platform, using multiple workflows developed in consultation between the Bioplatforms Australia Threatened Species Initiative, Galaxy Australia, and the Australian BioCommons.
   url: https://australianbiocommons.github.io/how-to-guides/genome_assembly/hifi_assembly
   name: Genome assembly with `hifiasm` on Galaxy Australia
+  registry:
+    biotools: hifiasm
+    tess: genome assembly
+  related_pages:
+    - genomics
 - id: genome-assembly-qc
   description:
     Once a genome has been assembled, it is important to assess the quality of the assembly, and in the first instance, this quality control (QC) can be achieved using the workflow described here.
   url: https://australianbiocommons.github.io/how-to-guides/genome_assembly/assembly_qc
   name: Assess the quality of your genome assembly
+  registry:
+    tess: genome assembly
+  related_pages:
+    - genomics
 - id: how-to-create-guide
   description:
     This web page describes How-to create new How-to Guide websites using a GitHub repository template.
   url: https://australianbiocommons.github.io/how-to-guide-template/
   name: How-to Guide for creating a How-to Guide
+  related_pages:
+    - documentation
 - id: doc-guidelines
   description:
     The Australian BioCommons has been working with community bioinformaticians and our infrastructure partners to establish a guidelines repository that can act as a template for documentation of tools and workflows.
   url: https://australianbiocommons.github.io/how-to-doc-guidelines/
   name: How-to use the Australian BioCommons documentation guidelines
+  related_pages:
+    - documentation
+- id: stacks
+  description:
+    This How-to Guide describes the steps required to run the Stacks workflows on Galaxy Australia to analyse RADseq data, using workflows developed in consultations between the Bioplatforms Australia Threatened Species Initiative, Galaxy Australia, and the Australian BioCommons.
+  url: https://australianbiocommons.github.io/how-to-guides/stacks_workflows/stacks
+  name: Stacks workflows in Galaxy Australia using RADseq
+  registry:
+    biotools: stacks
+    tess: RAD seq
+  related_pages:
+    - genomics

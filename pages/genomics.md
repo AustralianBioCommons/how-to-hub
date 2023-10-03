@@ -7,4 +7,5 @@ description:
 
 - {% tool "genome-assembly-hifi" %}
 - {% tool "genome-assembly-qc" %}
+- {% tool "stacks" %}
 
