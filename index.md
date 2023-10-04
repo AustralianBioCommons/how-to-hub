@@ -1,6 +1,6 @@
 ---
 title: Welcome to the How-to Hub
-affiliations: [Australian BioCommons]
+affiliations: [Australian BioCommons, Galaxy Australia, Bioplatforms Australia]
 ---
 
 
@@ -26,6 +26,8 @@ The How-to Guides are organised into the following categories:
 The **How-to Hub** would not be possible without the following contributors:
 
 {% include contributor-tiles-all.html custom="Johan Gustafsson, Patrick Capon, Bert Droesbeke"%}
+
+<br>
 
 The **How-to Guides** would not be possible without the following contributors:
 
