@@ -6,22 +6,22 @@
 {%- assign country_pages = site.pages | where_exp: "item", "item.search_exclude != true" | where_exp:"item","item.national_resources != nil" %}
 {%- unless tools.size == 0 or tools == nil %}
 {%- if include.tag %}
-<h2>Relevant tools and resources</h2>
+<h2>Available resources</h2>
 {%- endif %}
 <a class="visually-hidden-focusable" href='#skip-tool-table'>Skip tool table</a>
 <div class="table-responsive mt-4 mb-5">
     <table class="tooltable table display">
         <thead>
             <tr class="text-nowrap">
-                <th>Tool or resource {%- if include.tag -%}
-                    <a data-bs-toggle="tooltip" data-bs-original-title="This is a curated list which means that not all tools or resources that exist for this topic are listed here. This is mainly because we do not intend to be a registry. In most cases you will only find back the tools or resources that are mentioned in this page.">
+                <th>How-to Guide or resource {%- if include.tag -%}
+                    <a data-bs-toggle="tooltip" data-bs-original-title="This is a curated list which means that not all tools or resources that exist for this topic are listed here. This is mainly because we do not intend to be a registry.">
                         <i class="fa-solid fa-info-circle"></i>
                     </a>{%- endif %}
                 </th>
                 <th>Description</th>
-                <th>Related pages</th>
+                <th>Category</th>
                 <th>Registry {%- if include.tag -%}
-                    <a data-bs-toggle="tooltip" data-bs-original-title="Links to related information in ELIXIR registries: related policies and standards in FAIRsharing, scientific and technical descriptions of the resource in bio.tools, and related training in TeSS.">
+                    <a data-bs-toggle="tooltip" data-bs-original-title="Links to related information registries: FAIRsharing, bio.tools, TeSS, WorkflowHub.">
                         <i class="fa-solid fa-info-circle"></i>
                     </a>{%- endif %}
                 </th>
