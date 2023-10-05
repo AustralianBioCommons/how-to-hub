@@ -21,7 +21,7 @@
                 <th>Description</th>
                 <th>Category</th>
                 <th>Registry {%- if include.tag -%}
-                    <a data-bs-toggle="tooltip" data-bs-original-title="Links to related information registries: FAIRsharing, bio.tools, TeSS, WorkflowHub.">
+                    <a data-bs-toggle="tooltip" data-bs-original-title="Links to related information: FAIRsharing, bio.tools, TeSS, WorkflowHub, DOIs.">
                         <i class="fa-solid fa-info-circle"></i>
                     </a>{%- endif %}
                 </th>
@@ -59,19 +59,22 @@
                 <td>{{related_pages}}</td>
                 <td>
                     {%- if tool.registry.biotools %}
-                    <a data-bs-toggle="tooltip" data-bs-original-title="Bio.tools" href="https://bio.tools/{{tool.registry.biotools}}"><span class="badge bg-dark text-white hover-primary"><i class="fa-solid fa-info me-2"></i>Tool info</span></a>
+                    <a data-bs-toggle="tooltip" data-bs-original-title="Bio.tools" href="https://bio.tools/{{tool.registry.biotools}}"><span class="badge bg-dark text-white hover-primary"><i class="fa-solid fa-info me-2"></i>bio.tools</span></a>
                     {%- endif %}
                     {%- if tool.registry.fairsharing %}
-                    <a data-bs-toggle="tooltip" data-bs-original-title="FAIRsharing" href="https://fairsharing.org/FAIRsharing.{{tool.registry.fairsharing}}"><span class="badge bg-dark text-white hover-primary"><i class="fa-solid fa-database me-2"></i>Standards/Databases</span></a>
+                    <a data-bs-toggle="tooltip" data-bs-original-title="FAIRsharing" href="https://fairsharing.org/FAIRsharing.{{tool.registry.fairsharing}}"><span class="badge bg-dark text-white hover-primary"><i class="fa-solid fa-database me-2"></i>FAIRsharing</span></a>
                     {%- endif %}
                     {%- if tool.registry.fairsharing-coll %}
-                    <a data-bs-toggle="tooltip" data-bs-original-title="FAIRsharing collection" href="https://fairsharing.org/{{tool.registry.fairsharing-coll}}"><span class="badge bg-dark text-white hover-primary"><i class="fa-solid fa-database me-2"></i>Standards/Databases</span></a>
+                    <a data-bs-toggle="tooltip" data-bs-original-title="FAIRsharing collection" href="https://fairsharing.org/{{tool.registry.fairsharing-coll}}"><span class="badge bg-dark text-white hover-primary"><i class="fa-solid fa-database me-2"></i>FAIRsharing collection</span></a>
                     {%- endif %}
                     {%- if tool.registry.tess %}
-                    <a data-bs-toggle="tooltip" data-bs-original-title="TeSS" href="https://tess.elixir-europe.org/search?q={{tool.registry.tess}}"><span class="badge bg-dark text-white hover-primary"><i class="fa-solid fa-graduation-cap me-2"></i>Training</span></a>
+                    <a data-bs-toggle="tooltip" data-bs-original-title="TeSS" href="https://tess.elixir-europe.org/search?q={{tool.registry.tess}}"><span class="badge bg-dark text-white hover-primary"><i class="fa-solid fa-graduation-cap me-2"></i>Training (TeSS)</span></a>
                     {%- endif %}
                     {%- if tool.registry.europmc %}
-                    <a data-bs-toggle="tooltip" data-bs-original-title="EuroPMC" href="https://europepmc.org/article/MED/{{tool.registry.europmc}}"><span class="badge bg-dark text-white hover-primary"><i class="fa-solid fa-book me-2"></i>Publication</span></a>
+                    <a data-bs-toggle="tooltip" data-bs-original-title="EuroPMC" href="https://europepmc.org/article/MED/{{tool.registry.europmc}}"><span class="badge bg-dark text-white hover-primary"><i class="fa-solid fa-book me-2"></i>Publication (EuroPMC)</span></a>
+                    {%- endif %}
+                    {%- if tool.registry.doi %}
+                    <a data-bs-toggle="tooltip" data-bs-original-title="DOI" href="{{tool.registry.doi}}"><span class="badge bg-dark text-white hover-primary"><i class="fa-solid fa-info me-2"></i>{{tool.registry.biotools}}</span></a>
                     {%- endif %}
                 </td>
             </tr>
