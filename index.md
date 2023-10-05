@@ -16,9 +16,9 @@ The How-to Guides are organised into the following categories:
 {% include section-navigation-tiles.html type="category"%}
 
 
-## How-to cite the How-to Hub
+## Background
 
-> [Citation information goes here]
+{% tool "genome-assembly-hifi" %}
 
 
 ## Contributors
@@ -29,7 +29,7 @@ The **How-to Hub** would not be possible without the following contributors:
 
 <br>
 
-The **How-to Guides** would not be possible without the following contributors:
+The individual **How-to Guides** would not be possible without the following contributors:
 
 {% include contributor-tiles-all.html %}
 

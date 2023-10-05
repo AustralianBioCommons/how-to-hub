@@ -74,6 +74,15 @@
                     {%- if tool.registry.doi %}
                     <a data-bs-toggle="tooltip" data-bs-original-title="DOI" href="{{tool.registry.doi}}"><span class="badge bg-dark text-white hover-primary"><i class="fa-solid fa-info me-2"></i>DOI</span></a>
                     {%- endif %}
+                    {%- if tool.registry.wfh-collection %}
+                    <a data-bs-toggle="tooltip" data-bs-original-title="WorkflowHub collection" href="{{tool.registry.wfh-collection}}"><span class="badge bg-dark text-white hover-primary"><i class="fa-solid fa-info me-2"></i>WorkflowHub collection</span></a>
+                    {%- endif %}
+                    {%- if tool.registry.wfh %}
+                    <a data-bs-toggle="tooltip" data-bs-original-title="WorkflowHub entry" href="{{tool.registry.wfh}}"><span class="badge bg-dark text-white hover-primary"><i class="fa-solid fa-info me-2"></i>WorkflowHub entry</span></a>
+                    {%- endif %}
+                    {%- if tool.registry.template %}
+                    <a data-bs-toggle="tooltip" data-bs-original-title="Template" href="{{tool.registry.template}}"><span class="badge bg-dark text-white hover-primary"><i class="fa-solid fa-info me-2"></i>Template</span></a>
+                    {%- endif %}
                 </td>
             </tr>
             {%- endfor %}
