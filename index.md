@@ -6,8 +6,6 @@ affiliations: [Australian BioCommons, Galaxy Australia, Bioplatforms Australia]
 
 This central hub links to step-by-step **How-to Guides**, and associated documents, that support the reuse of bioinformatics tools, workflows and data on Australian compute systems and digital research infrastructure.
 
-{% include callout.html type="note" content="If you have an idea for a new How-to Guide, or a new category, please visit the [contributing page](contributing) for more information." %}
-
 
 ## Categories
 
@@ -22,6 +20,8 @@ The How-to Guides are organised into the following categories:
 
 
 ## Contributors
+
+{% include callout.html type="note" content="If you have an idea for a new How-to Guide, or a new category, please visit the [contributing page](contributing) for more information." %}
 
 The **How-to Hub** would not be possible without the following contributors:
 

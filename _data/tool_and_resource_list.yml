@@ -4,11 +4,10 @@
   url: https://australianbiocommons.github.io/how-to-guides/genome_assembly/hifi_assembly
   name: Genome assembly with `hifiasm` on Galaxy Australia
   registry:
-    biotools: hifiasm
     tess: genome assembly
     wfh-collection: https://workflowhub.eu/collections/5
   related_pages:
-    - genomics
+    - genome_assembly
 - id: genome-assembly-qc
   description:
     Once a genome has been assembled, it is important to assess the quality of the assembly, and in the first instance, this quality control (QC) can be achieved using the workflow described here.
@@ -18,7 +17,7 @@
     tess: genome assembly
     wfh: https://workflowhub.eu/workflows/403
   related_pages:
-    - genomics
+    - genome_assembly
 - id: how-to-create-guide
   description:
     This web page describes How-to create new How-to Guide websites using a GitHub repository template.
@@ -47,4 +46,4 @@
     biotools: stacks
     tess: RAD seq
   related_pages:
-    - genomics
+    - pop_gen
