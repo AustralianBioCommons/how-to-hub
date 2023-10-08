@@ -29,6 +29,13 @@ defaults:
       layout: "page"
       sidebar: main
 
+  -
+    scope:
+      path: "genomics"
+      type: "pages"
+    values:
+      type: genomics
+
 plugins:
   - jemoji
   - jekyll-sitemap
