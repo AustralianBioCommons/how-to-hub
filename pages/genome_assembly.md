@@ -5,4 +5,5 @@ page_id: genome_assembly
 description: 
 ---
 
+{{page.url}}
 

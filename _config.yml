@@ -25,16 +25,9 @@ defaults:
       path: ""
       type: "pages"
     values:
-      #permalink: /:basename
+      permalink: /:basename
       layout: "page"
       sidebar: main
-
-  -
-    scope:
-      path: "genomics"
-      type: "pages"
-    values:
-      type: genomics
 
 plugins:
   - jemoji
