@@ -4,9 +4,9 @@ subitems:
   - title: Genomics
     subitems:
       - title: Genome assembly
-        url: genome_assembly
+        url: /genome_assembly
       - title: Population genomics
-        url: pop_gen
+        url: /pop_gen
   - title: Best practice documentation
     url: /documentation
   - title: View all
