@@ -1,5 +1,5 @@
 ---
-title: Welcome to the How-to Hub
+title: Welcome
 affiliations: [Australian BioCommons, Galaxy Australia, Bioplatforms Australia]
 ---
 
@@ -12,11 +12,6 @@ This central hub links to step-by-step **How-to Guides**, and associated documen
 The How-to Guides are organised into the following categories:
 
 {% include section-navigation-tiles.html type="category"%}
-
-
-## Background
-
-{% tool "genome-assembly-hifi" %}
 
 
 ## Contributors
@@ -41,8 +36,4 @@ This work is supported by the [Australian BioCommons](https://www.biocommons.org
 This guide makes use of the [ELIXIR toolkit theme](https://github.com/ELIXIR-Belgium/elixir-toolkit-theme)
 
 {% include image.html file="elixir-toolkit-theme_logo.svg" alt="Elixir Toolkit Theme logo" max-width="15em" %}
-
-## References
-
-> Add references as needed.
  
