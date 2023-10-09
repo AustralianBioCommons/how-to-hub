@@ -26,7 +26,7 @@ If you want to edit content on this site, please do the following:
 1. Please let us know via GitHub [issues](https://github.com/AustralianBioCommons/how-to-hub/issues).
 2. Create your own fork of this GitHub repository.
 3. In your fork, create a branch with a concise name, that reflects its contents (e.g. `add/how-to-login-galaxy`).
-4. Make sure you update [`CONTRIBUTORS.yml`](_data/CONTRIBUTORS.yml).
+4. Make sure you update [`CONTRIBUTORS.yml`](/_data/CONTRIBUTORS.yml).
 5. Create and commit the edits to your new branch.
 6. Open a GitHub Pull Request (PR) on this repository for your branch, concisely providing context for your additions.
 7. Follow-up on any feedback from the repository maintainers.
