@@ -11,6 +11,6 @@ subitems:
         url: /pop_gen
   - title: View all
     url: /all_guides
-  - title: Contributing
+  - title: How-to contribute
     url: /contributing
   

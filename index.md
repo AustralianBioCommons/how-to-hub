@@ -1,6 +1,5 @@
 ---
 title: Welcome
-affiliations: [Australian BioCommons, Galaxy Australia, Bioplatforms Australia]
 ---
 
 
