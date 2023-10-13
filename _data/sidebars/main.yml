@@ -1,14 +1,14 @@
 subitems:
   - title: About
     url: /index
-  - title: Best practice documentation
-    url: /documentation
   - title: Genomics
     subitems:
       - title: Genome assembly
         url: /genome_assembly
       - title: Population genomics
         url: /pop_gen
+  - title: Best practice documentation
+    url: /documentation
   - title: View all
     url: /all_guides
   - title: How-to contribute
