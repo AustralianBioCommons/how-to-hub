@@ -7,7 +7,7 @@ subitems:
         url: /genome_assembly
       - title: Population genomics
         url: /pop_gen
-  - title: Best practice documentation
+  - title: How-to document
     url: /documentation
   - title: View all
     url: /all_guides
