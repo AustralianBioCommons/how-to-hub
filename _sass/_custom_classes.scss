@@ -19,9 +19,11 @@
 
 .navbar {
     .navbar-brand {
-        max-height: 80px;
         font-size: 2.25rem;
         color: $white !important;
+        img {
+            max-height: 80px;
+        }
     }
 }
 
