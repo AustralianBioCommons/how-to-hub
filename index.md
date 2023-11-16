@@ -13,19 +13,9 @@ The How-to Guides are organised into the following categories:
 {% include section-navigation-tiles.html type="category"%}
 
 
-## Contributors
+## Contributing
 
-{% include callout.html type="note" content="If you have an idea for a new How-to Guide, or a new category, please visit the [contributing page](contributing) for more information." %}
-
-The **How-to Hub** would not be possible without the following contributors:
-
-{% include contributor-tiles-all.html custom="Johan Gustafsson, Patrick Capon, Bert Droesbeke"%}
-
-<br>
-
-The individual **How-to Guides** would not be possible without the following contributors:
-
-{% include contributor-tiles-all.html %}
+If you have an idea for a new How-to Guide, or a new category, please visit the [contributing page](contributing) for more information.
 
 
 ## Acknowledgements
