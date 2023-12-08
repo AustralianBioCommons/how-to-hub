@@ -9,10 +9,10 @@ subitems:
         url: /pop_gen
   - title: How-to document
     url: /documentation
-  - title: View all
-    url: /all_guides
   - title: How-to contribute
     url: /contributing
+  - title: View all
+    url: /all_guides
   - title: Contributors
     url: /contributors
   
