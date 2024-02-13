@@ -3,7 +3,7 @@ title: Welcome
 ---
 
 
-This central hub houses a collection of step-by-step **How-to Guides**, and associated documents, that have been prepared by community members that gather around BioCommons activities. The guides support the reuse of bioinformatics tools, workflows and data on Australian compute systems and digital research infrastructure.
+This central hub houses a collection of step-by-step **How-to Guides**, and associated documents, that have been prepared by community members who gather around BioCommons activities. The guides support the reuse of bioinformatics tools, workflows and data on Australian compute systems and digital research infrastructure.
 
 
 ## Categories
