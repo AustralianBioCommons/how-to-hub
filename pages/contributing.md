@@ -24,16 +24,17 @@ If yes, follow this process:
 
 1. Create a How-to Guide using our [How-to Guide for creating a How-to Guide](https://australianbiocommons.github.io/how-to-guide-template/).
 2. Make sure your guide has the following:
-   1. A completed `CITATION.cff` file
-   2. All included sections should be completed, in particular the main index page, which contains the following sections: `About`, `Please cite this guide as follows`, `Acknowledgements` and `References`.
-   3. An up-to-date `CONTRIBUTORS.yml` file 
-   4. A `Back to How-to Hub` button in the top navigation panel of your How-to Guide (see example snippet below that needs to be added to the `_data/topnav.yml` file)
+   - A completed `CITATION.cff` file
+   - All included sections should be completed, in particular the main index page, which contains the following sections: `About`, `Please cite this guide as follows`, `Acknowledgements` and `References`.
+   - An up-to-date `CONTRIBUTORS.yml` file 
+   - A `Back to How-to Hub` button in the top navigation panel of your How-to Guide (see example snippet below that needs to be added to the `_data/topnav.yml` file)
 
 ```yaml
 - title: Back to How-to Hub
   url: https://australianbiocommons.github.io/how-to-hub/index
 ```
 
+{:start="4"}
 3. Fork the How-to Hub repository: https://github.com/AustralianBioCommons/how-to-hub/fork
 4. Add your guide to the How-to Hub by adding the following `yaml` snippet to the How-to Hub `_data/tool_and_resource_list.yml` file.
 
@@ -58,6 +59,7 @@ A completed example is available below:
     - genome_assembly
 ```
 
+{:start="6"}
 6. Generate a pull request (PR) against the main branch of the How-to Hub.
 7. Hub maintainers will review your PR and approve the guide, or make some suggestions for changes.
 8. Once any suggested changes have been addressed, the PR will be merged and your guide will be part of the How-to Hub listing.
