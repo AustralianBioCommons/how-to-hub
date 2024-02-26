@@ -1,18 +1,18 @@
 subitems:
   - title: About
     url: /index
-  - title: Genomics
+  - title: View all guides
+    url: /all_guides
+  - title: Categories
     subitems:
       - title: Genome assembly
         url: /genome_assembly
       - title: Population genomics
         url: /pop_gen
-  - title: How-to document
-    url: /documentation
+      - title: How-to document
+        url: /documentation
   - title: How-to contribute
     url: /contributing
-  - title: View all
-    url: /all_guides
   - title: Contributors
     url: /contributors
   
