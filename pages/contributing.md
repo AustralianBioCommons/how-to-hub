@@ -20,7 +20,7 @@ If you have prepared a How-to Guide that is related to a BioCommons activity, we
 {% include callout.html type="important" content="A guide does not necessarily need to use the How-to Guide template to be included in the How-to Hub. If you are unsure about whether your guide is suitable, please [contact us](https://www.biocommons.org.au/contact-form)." %}
 
 
-If yes, follow this process:
+If you answered yes above, follow this process:
 
 1. Create a How-to Guide using our [How-to Guide for creating a How-to Guide](https://australianbiocommons.github.io/how-to-guide-template/).
 2. Make sure your guide has the following:
@@ -34,8 +34,8 @@ If yes, follow this process:
   url: https://australianbiocommons.github.io/how-to-hub/index
 ```
 
-{:start="4"}
-3. Fork the How-to Hub repository: https://github.com/AustralianBioCommons/how-to-hub/fork
+{:start="3"}
+3. Fork the How-to Hub repository: [https://github.com/AustralianBioCommons/how-to-hub/fork](https://github.com/AustralianBioCommons/how-to-hub/fork)
 4. Add your guide to the How-to Hub by adding the following `yaml` snippet to the How-to Hub `_data/tool_and_resource_list.yml` file.
 
 ```yaml
@@ -59,10 +59,10 @@ A completed example is available below:
     - genome_assembly
 ```
 
-{:start="6"}
-6. Generate a pull request (PR) against the main branch of the How-to Hub.
-7. Hub maintainers will review your PR and approve the guide, or make some suggestions for changes.
-8. Once any suggested changes have been addressed, the PR will be merged and your guide will be part of the How-to Hub listing.
+{:start="5"}
+5. Generate a pull request (PR) against the main branch of the How-to Hub.
+6. Hub maintainers will review your PR and approve the guide, or make some suggestions for changes.
+7. Once any suggested changes have been addressed, the PR will be merged and your guide will be part of the How-to Hub listing.
 
 
 ## Editing the How-to Hub
