@@ -47,3 +47,10 @@
     tess: RAD seq
   related_pages:
     - pop_gen
+- id: shotgun-metagenomics-metaphlanv2
+  description:
+    This How-to Guide describes how to use the shotgun metagenomics workflow with MetaPhlAn2 on Galaxy Australia. The workflow is using the tools MetaPhlAn2 for taxonomy classification and HUMAnN2 for functional profiling of the metagenomes.
+  url: https://vmurigneu.github.io/shotgun_howto_ga_workflows
+  name: Shotgun metagenomics workflow with MetaPhlAn2 on Galaxy Australia
+  related_pages:
+    - metagenomics
