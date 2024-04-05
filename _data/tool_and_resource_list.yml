@@ -47,3 +47,9 @@
     tess: RAD seq
   related_pages:
     - pop_gen
+ - id: scrnaseq_howto_ga_workflows
+  description: This document describes how to use some scanpy-based single cell RNAseq workflows on galaxy Australia.
+  url: https://swbioinf.github.io/scrnaseq_howto_ga_workflows/scrnaseq_wf_guide
+  name: scRNAseq Processing Workflows on Galaxy Australia
+  related_pages:
+    - transcriptomics
