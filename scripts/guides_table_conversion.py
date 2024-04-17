@@ -21,12 +21,12 @@ allowed_registries = ['biotools', 'fairsharing', 'tess', 'wfh-collection', 'wfh'
 print(f"----> Converting GoogleSheets table to {output_path} started.")
 resource_table = pd.read_csv(url, dtype={'name': str, 'url': str, 'description': str, 'id': str, 'fairsharing': str,
                                          'biotools': str, 'tess': str, 'wfh-collection': str, 'wfh': str,
-                                         'doi': str, 'template': str, 'categories': str})
+                                         'doi': str, 'template': str, 'related_pages': str})
 resource_list = resource_table.to_dict("records")
 clean_resource_list = []
 for resource in resource_list:
-    if not pd.isna(resource['categories']):
-        category_list = resource['categories'].rsplit(sep=",")
+    if not pd.isna(resource['related_pages']):
+        category_list = resource['related_pages'].rsplit(sep=",")
     else:
         category_list = ""
     registry_dict = {}
@@ -38,7 +38,7 @@ for resource in resource_list:
     clean_resource_list.append(clean_resource)
     clean_resource['registry'] = registry_dict
     if category_list != "":
-        clean_resource['categories'] = category_list
+        clean_resource['related_pages'] = category_list
 
 print(os.getcwd())
 with open(output_path, 'w+') as yaml_file:
