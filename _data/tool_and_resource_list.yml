@@ -8,7 +8,7 @@
     tess: genome assembly
     wfh-collection: https://workflowhub.eu/collections/5
   related_pages:
-  - genome assembly
+  - genome_assembly
   url: https://australianbiocommons.github.io/how-to-guides/genome_assembly/hifi_assembly
 - description: Once a genome has been assembled, it is important to assess the quality
     of the assembly, and in the first instance, this quality control (QC) can be achieved
@@ -19,7 +19,7 @@
     tess: genome assembly
     wfh: https://workflowhub.eu/workflows/403
   related_pages:
-  - genome assembly
+  - genome_assembly
   url: https://australianbiocommons.github.io/how-to-guides/genome_assembly/assembly_qc
 - description: This web page describes How-to create new How-to Guide websites using
     a GitHub repository template.
