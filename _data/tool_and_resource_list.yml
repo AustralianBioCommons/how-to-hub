@@ -1,6 +1,5 @@
 - categories:
   - genome assembly
-  - documentation
   description: This How-to-Guide describes the steps required to assemble your genome
     on the Galaxy Australia platform, using multiple workflows developed in consultation
     between the Bioplatforms Australia Threatened Species Initiative, Galaxy Australia,
@@ -11,3 +10,55 @@
     tess: genome assembly
     wfh-collection: https://workflowhub.eu/collections/5
   url: https://australianbiocommons.github.io/how-to-guides/genome_assembly/hifi_assembly
+- categories:
+  - genome assembly
+  description: Once a genome has been assembled, it is important to assess the quality
+    of the assembly, and in the first instance, this quality control (QC) can be achieved
+    using the workflow described here.
+  id: genome-assembly-qc
+  name: Assess the quality of your genome assembly
+  registry:
+    tess: genome assembly
+    wfh: https://workflowhub.eu/workflows/403
+  url: https://australianbiocommons.github.io/how-to-guides/genome_assembly/assembly_qc
+- categories:
+  - documentation
+  description: This web page describes How-to create new How-to Guide websites using
+    a GitHub repository template.
+  id: how-to-create-guide
+  name: How-to Guide for creating a How-to Guide
+  registry:
+    doi: https://doi.org/10.5281/zenodo.8210268
+    template: https://github.com/AustralianBioCommons/guide-template
+  url: https://australianbiocommons.github.io/how-to-guide-template/
+- categories:
+  - documentation
+  description: The Australian BioCommons has been working with community bioinformaticians
+    and our infrastructure partners to establish a guidelines repository that can
+    act as a template for documentation of tools and workflows.
+  id: doc-guidelines
+  name: How-to use the Australian BioCommons documentation guidelines
+  registry:
+    template: https://github.com/AustralianBioCommons/doc_guidelines
+  url: https://australianbiocommons.github.io/how-to-doc-guidelines/
+- categories:
+  - pop_gen
+  description: This How-to Guide describes the steps required to run the Stacks workflows
+    on Galaxy Australia to analyse RADseq data, using workflows developed in consultations
+    between the Bioplatforms Australia Threatened Species Initiative, Galaxy Australia,
+    and the Australian BioCommons.
+  id: stacks
+  name: Stacks workflows in Galaxy Australia using RADseq
+  registry:
+    biotools: stacks
+    tess: RAD seq
+  url: https://australianbiocommons.github.io/how-to-guides/stacks_workflows/stacks
+- categories:
+  - metagenomics
+  description: This How-to Guide describes how to use the shotgun metagenomics workflow
+    with MetaPhlAn2 on Galaxy Australia. The workflow is using the tools MetaPhlAn2
+    for taxonomy classification and HUMAnN2 for functional profiling of the metagenomes.
+  id: shotgun-metagenomics-metaphlanv2
+  name: Shotgun metagenomics workflow with MetaPhlAn2 on Galaxy Australia
+  registry: {}
+  url: https://vmurigneu.github.io/shotgun_howto_ga_workflows/shotgun_wf_guide
