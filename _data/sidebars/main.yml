@@ -7,6 +7,8 @@ subitems:
     subitems:
       - title: Genome assembly
         url: /genome_assembly
+      - title: Metagenomics
+        url: /metagenomics
       - title: Population genomics
         url: /pop_gen
       - title: How-to document
