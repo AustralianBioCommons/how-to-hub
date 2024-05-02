@@ -58,7 +58,17 @@
     for taxonomy classification and HUMAnN2 for functional profiling of the metagenomes.
   id: shotgun-metagenomics-metaphlanv2
   name: Shotgun metagenomics workflow with MetaPhlAn2 on Galaxy Australia
-  registry: {}
+  registry:
+    biotools: metaphlan
+    wfh: https://workflowhub.eu/workflows/624
   related_pages:
   - metagenomics
   url: https://vmurigneu.github.io/shotgun_howto_ga_workflows/shotgun_wf_guide
+- description: This guide describes how to use some scanpy-based single cell RNAseq
+    workflows on Galaxy Australia.
+  id: scrnaseq_howto_ga_workflows
+  name: scRNAseq Processing Workflows on Galaxy Australia
+  registry: {}
+  related_pages:
+  - transcriptomics
+  url: https://swbioinf.github.io/scrnaseq_howto_ga_workflows/scrnaseq_wf_guide
