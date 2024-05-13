@@ -72,3 +72,21 @@
   related_pages:
   - transcriptomics
   url: https://swbioinf.github.io/scrnaseq_howto_ga_workflows/scrnaseq_wf_guide
+- description: How-to Guide for Transcriptome alignment.
+  id: Transcriptome
+  name: Transcriptome Alignment
+  registry:
+    wfh-collection: https://workflowhub.eu/collections/23
+  related_pages:
+  - genome_annotation
+  url: https://australianbiocommons.github.io/how-to-guides/genome_annotation/Transcriptome
+- description: How-to Guide for Genome Annotation with FgenesH++.
+  id: Fgenesh
+  name: Genome Annotation
+  registry:
+    biotools: fgenesh
+    wfh: https://workflowhub.eu/workflows/881
+    wfh-collection: https://workflowhub.eu/collections/23
+  related_pages:
+  - genome_annotation
+  url: https://australianbiocommons.github.io/how-to-guides/genome_annotation/Fgenesh
