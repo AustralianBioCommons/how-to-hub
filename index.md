@@ -10,7 +10,7 @@ This central hub houses a collection of step-by-step **How-to Guides**, and asso
 
 The How-to Guides are organised into the following categories:
 
-{% include section-navigation-tiles.html col = "1" type="category"%}
+{% include section-navigation-tiles.html col = "2" type="category"%}
 
 
 ## Contributing
