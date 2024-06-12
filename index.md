@@ -20,9 +20,7 @@ If you have an idea for a new How-to Guide, or a new category, please visit the 
 
 ## Acknowledgements
 
-The authors would like to acknowledge Marion Shadbolt (@mshadbolt) for developing the GoogleSheet import and parsing that is being reused for the How-to Hub.
-
-This work is supported by the [Australian BioCommons](https://www.biocommons.org.au/) via funding from [Bioplatforms Australia](https://bioplatforms.com/), the Australian Research Data Commons (https://doi.org/10.47486/PL105) and the Queensland Government Research Infrastructure Co-investment Fund (RICF) programme. Bioplatforms Australia and the Australian Research Data Commons are funded by the National Collaborative Research Infrastructure Strategy (NCRIS).
+This work is supported by the [Australian BioCommons](https://www.biocommons.org.au/) via funding from [Bioplatforms Australia](https://bioplatforms.com/) and the Queensland Government Research Infrastructure Co-investment Fund (RICF) programme. Bioplatforms Australia is funded by the National Collaborative Research Infrastructure Strategy (NCRIS).
 
 This guide makes use of the [ELIXIR toolkit theme](https://github.com/ELIXIR-Belgium/elixir-toolkit-theme)
 
