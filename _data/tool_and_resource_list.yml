@@ -90,3 +90,13 @@
   related_pages:
   - genome_annotation
   url: https://australianbiocommons.github.io/how-to-guides/genome_annotation/Fgenesh
+- description: This guide describes the steps required to scaffold your genome on
+    the Galaxy Australia platform using HiC data.
+  id: hic-scaffolding
+  name: Genome scaffolding with Hi-C on Galaxy Australia
+  registry:
+    tess: genome assembly
+    wfh: https://workflowhub.eu/workflows/1054
+  related_pages:
+  - genome_assembly
+  url: https://australianbiocommons.github.io/how-to-guides/genome_assembly/hic-scaffolding
