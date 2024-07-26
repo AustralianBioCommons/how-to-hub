@@ -17,7 +17,7 @@ If you have prepared a How-to Guide that is related to a BioCommons activity, we
 - The guide is relevant to a national audience
 - The guide provides enduring access to digital technique(s), data or tool(s) needed to conduct world class research
 
-{% include callout.html type="important" content="A guide does not necessarily need to use the How-to Guide template to be included in the How-to Hub. If you are unsure about whether your guide is suitable, please [contact us](https://www.biocommons.org.au/contact-form)." %}
+{% include callout.html type="important" content="A guide does not necessarily need to use the How-to Guide template to be included in the How-to Hub. If you have an existing guide in your own format, skip to step 3. If you are unsure about whether your guide is suitable, please [contact us](https://www.biocommons.org.au/contact-form)." %}
 
 
 If you answered yes above, follow this process:
