@@ -100,3 +100,24 @@
   related_pages:
   - genome_assembly
   url: https://australianbiocommons.github.io/how-to-guides/genome_assembly/hic-scaffolding
+- description: 'Guide covering: AlphaFold2 - the basics, running a structure prediction,
+    and interpreting the Output Files'
+  id: alphafold2
+  name: AlphaFold2 How-to Guide
+  registry:
+    biotools: alphafold_2
+    doi: https://doi.org/10.1038/s41586-021-03819-2
+    tess: alphafold
+  related_pages:
+  - structural_biology
+  url: https://australian-structural-biology-computing.github.io/website/AlphaFold2_how_to_guide
+- description: A guide for presenting and sharing AlphaFold models in papers.
+  id: alphafold2_sharing
+  name: Best practices for presenting and sharing AlphaFold models in a paper
+  registry:
+    biotools: alphafold_2
+    doi: https://doi.org/10.1038/s41586-021-03819-2
+    tess: alphafold
+  related_pages:
+  - structural_biology
+  url: https://australian-structural-biology-computing.github.io/website/best-practices-alphafold
