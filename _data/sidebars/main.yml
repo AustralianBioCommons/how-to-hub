@@ -13,6 +13,8 @@ subitems:
         url: /metagenomics
       - title: Population genomics
         url: /pop_gen
+      - title: Structural biology
+        url: /structural_biology
       - title: How-to document
         url: /documentation
   - title: How-to contribute
