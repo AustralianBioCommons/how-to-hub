@@ -100,8 +100,8 @@
   related_pages:
   - genome_assembly
   url: https://australianbiocommons.github.io/how-to-guides/genome_assembly/hic-scaffolding
-- description: 'Guide covering: AlphaFold2 - the basics, running a structure prediction,
-    and interpreting the Output Files'
+- description: Covers the basics including running a structure prediction, and interpreting
+    outputs files
   id: alphafold2
   name: AlphaFold2 How-to Guide
   registry:
