@@ -126,7 +126,7 @@
       high-performance computing systems hosted by Australian research and computing facilities - 
       Lyra (Queensland University of Technology), Gadi (National Computational Infrastructure) and 
       Setonix (Pawsey). Throughout this guide we make use of the Australian Nextflow Seqera 
-      Service provided to the researchers by Australian BioCommons.
+      Service provided to researchers by Australian BioCommons.
   url: https://mantczakaus.github.io/ontvisc_hpc_seqera_service_guide/
   name: ONTViSc pipeline on HPC using Australian Nextflow Seqera Service
   related_pages:
