@@ -122,9 +122,15 @@
   - structural_biology
   url: https://australian-structural-biology-computing.github.io/website/best-practices-alphafold
 - id: ontvisc_hpc_seqera_service_guide
-  description: This is a guide outlining how to set up and execute [the ONTViSc pipeline](https://github.com/eresearchqut/ONTViSc) on three high-performance computing systems hosted by Australian research and computing facilities - [Lyra (Queensland University of Technology)](https://eresearchqut.atlassian.net/wiki/spaces/EG/pages/1545143157/Start+using+the+HPC), [Gadi (National Computational Infrastructure)](https://opus.nci.org.au/display/Help/Gadi+User+Guide) and [Setonix (Pawsey)](https://support.pawsey.org.au/documentation/display/US/Setonix+User+Guide). Throughout this guide we will make use of the Australian Nextflow Seqera Service provided to the researchers by [Australian BioCommons](https://www.biocommons.org.au/).
+  description: This is a guide outlining how to set up and execute the ONTViSc pipeline on three 
+      high-performance computing systems hosted by Australian research and computing facilities - 
+      Lyra (Queensland University of Technology), Gadi (National Computational Infrastructure) and 
+      Setonix (Pawsey). Throughout this guide we make use of the Australian Nextflow Seqera 
+      Service provided to the researchers by Australian BioCommons.
   url: https://mantczakaus.github.io/ontvisc_hpc_seqera_service_guide/
   name: ONTViSc pipeline on HPC using Australian Nextflow Seqera Service
   related_pages:
     - metagenomics
+  registry:
+    wfh: https://workflowhub.eu/workflows/683
 
