@@ -125,7 +125,7 @@
   description: This is a guide outlining how to set up and execute the ONTViSc pipeline on three 
       high-performance computing systems hosted by Australian research and computing facilities - 
       Lyra (Queensland University of Technology), Gadi (National Computational Infrastructure) and 
-      Setonix (Pawsey). Throughout this guide we make use of the Australian Nextflow Seqera 
+      Setonix (Pawsey Supercomputing Research Centre). Throughout this guide we make use of the Australian Nextflow Seqera 
       Service provided to researchers by Australian BioCommons.
   url: https://mantczakaus.github.io/ontvisc_hpc_seqera_service_guide/
   name: ONTViSc pipeline on HPC using Australian Nextflow Seqera Service
