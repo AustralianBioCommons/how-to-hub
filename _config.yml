@@ -7,7 +7,7 @@ topnav_title: How-to Hub
 description: "A hub for bioinformatics focused How-to Guides"
 # Metadata description of the website
 
-remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@2.4.0
+remote_theme: ELIXIR-Belgium/elixir-toolkit-theme
 gtag: G-T8GWK081T9
 
 theme_variables:
