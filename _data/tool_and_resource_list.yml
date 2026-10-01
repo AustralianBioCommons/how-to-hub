@@ -142,3 +142,9 @@
   related_pages:
   - transcriptomics
   url: https://swbioinf.github.io/spatialsnippets/index.html
+- id: shotgun-metagenomics-kraken
+- description: This How-to Guide describes how to use the shotgun metagenomics workflow with Kraken2 on Galaxy Australia. The workflow is using the tools Kraken2 and Bracken for taxonomy classification and the KrakenTools to evaluate diversity metrics.
+  url: https://vmurigneu.github.io/kraken_howto_ga_workflows/taxonomy_kraken2_wf_guide
+  name: Shotgun metagenomics workflow with Kraken2 on Galaxy Australia
+  related_pages:
+  - metagenomics
