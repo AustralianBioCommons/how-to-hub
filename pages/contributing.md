@@ -1,6 +1,15 @@
 ---
-title: Contributing
+title: Create guides and documentation
+description: Learn how-to create documentation and guidance materials for bioinformatics software tools, computational workflows, data sources, platforms, and services.
+type: How-to
 ---
+
+This includes standards, templates, and conventions that support BioCommons projects, collaborations, and activities.
+
+- [Standard GitHub repository template]()
+- [How-to Guide template](https://github.com/AustralianBioCommons/guide-template)
+- [Using **`docbot`** for AI-assisted authoring of documentation](https://github.com/Sydney-Informatics-Hub/doc-bot)
+
 
 ## Creating your own How-to Guide
 
