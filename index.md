@@ -1,28 +1,31 @@
 ---
 title: Welcome
+toc: false
+sidebar: false
 ---
 
 
-This central hub houses a collection of step-by-step **How-to Guides**, and associated documents, that have been prepared by community members who gather around BioCommons activities. The guides support the reuse of bioinformatics tools, workflows and data on Australian compute systems and digital research infrastructure.
+This central hub is designed to help you find the **documentation and guidance materials** available for bioinformatics software tools, computational workflows, data sources, platforms, and services that are maintained by [Australian BioCommons](https://www.biocommons.org.au/) and its infrastructure partners.
+
+This includes links to platform and service documentation, support documentation and How-to Guides, and even support (e.g. templates, conventions, standards) for creating your own documentation and guides.
 
 
-## Categories
+## Support available on this site
 
-The How-to Guides are organised into the following categories:
-
-{% include section-navigation-tiles-simple.html col = "2" type="category"%}
+{% include section-navigation-tiles_pages.html type ="How-to" col = "2" %}
 
 
-## Contributing
+## Documentation available for services, platforms, and activities
 
-If you have an idea for a new How-to Guide, or a new category, please visit the [contributing page](contributing) for more information.
+{% include section-navigation-tiles_mod.html type ="Service" col = "2" %}
+
+
+## Get involved
+
+More info coming soon.
 
 
 ## Acknowledgements
 
 This work is supported by [Australian BioCommons](https://www.biocommons.org.au/) via funding from [Bioplatforms Australia](https://bioplatforms.com/) and the Queensland Government Research Infrastructure Co-investment Fund (RICF) programme. Bioplatforms Australia is funded by the National Collaborative Research Infrastructure Strategy (NCRIS).
-
-This guide makes use of the [ELIXIR toolkit theme](https://github.com/ELIXIR-Belgium/elixir-toolkit-theme)
-
-{% include image.html file="elixir-toolkit-theme_logo.svg" alt="Elixir Toolkit Theme logo" max-width="15em" %}
  
