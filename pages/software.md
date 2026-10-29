@@ -1,27 +1,24 @@
 ---
-title: Find and reuse software
+title: Find software
+description: Helping you to locate software. 
 type: How-to
 page_id: software
-description: Helping you to locate software, and understand how to access that software on Australian compute systems. 
+tile_id: how-to
+toc: false
 ---
 
-## Services
 
-### BioShell
+## Software
 
-### Nextflow Seqera Service
-
-
-## Software tools
+{% include section-navigation-tiles_mod.html type ="Software-registry" %}
 
 
-### Containers
+## Containers
 
-
-#### BioContainers / BioConda
-
-
-#### quay.io containers from Pawsey
+{% include section-navigation-tiles_mod.html type ="Container-resource" %}
 
 
 ## Computational workflows
+
+{% include section-navigation-tiles_mod.html type ="Workflow-registry" %}
+
