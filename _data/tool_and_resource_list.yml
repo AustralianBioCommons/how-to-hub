@@ -1,4 +1,4 @@
-- description: This How-to-Guide describes the steps required to assemble your genome
+- description: This How-to Guide describes the steps required to assemble your genome
     on the Galaxy Australia platform, using multiple workflows developed in consultation
     between the Bioplatforms Australia Threatened Species Initiative, Galaxy Australia,
     and the Australian BioCommons.
@@ -8,7 +8,7 @@
     tess: genome assembly
     wfh-collection: https://workflowhub.eu/collections/5
   related_pages:
-  - genome_assembly
+  - genome_annotation
   url: https://australianbiocommons.github.io/how-to-guides/genome_assembly/hifi_assembly
 - description: Once a genome has been assembled, it is important to assess the quality
     of the assembly, and in the first instance, this quality control (QC) can be achieved
@@ -19,7 +19,7 @@
     tess: genome assembly
     wfh: https://workflowhub.eu/workflows/403
   related_pages:
-  - genome_assembly
+  - genome_annotation
   url: https://australianbiocommons.github.io/how-to-guides/genome_assembly/assembly_qc
 - description: This web page describes How-to create new How-to Guide websites using
     a GitHub repository template.
@@ -35,7 +35,7 @@
     and our infrastructure partners to establish a guidelines repository that can
     act as a template for documentation of tools and workflows.
   id: doc-guidelines
-  name: How-to use the Australian BioCommons documentation guidelines
+  name: How to use the Australian BioCommons documentation guidelines
   registry:
     template: https://github.com/AustralianBioCommons/doc_guidelines
   related_pages:
@@ -98,10 +98,10 @@
     tess: genome assembly
     wfh: https://workflowhub.eu/workflows/1054
   related_pages:
-  - genome_assembly
+  - genome_annotation
   url: https://australianbiocommons.github.io/how-to-guides/genome_assembly/hic-scaffolding
 - description: Covers the basics including running a structure prediction, and interpreting
-    outputs files
+    outputs files.
   id: alphafold2
   name: AlphaFold2 How-to Guide
   registry:
@@ -121,20 +121,14 @@
   related_pages:
   - structural_biology
   url: https://australian-structural-biology-computing.github.io/website/best-practices-alphafold
-- description: 'This is a guide outlining how to set up and execute [the ONTViSc pipeline](https://github.com/eresearchqut/ONTViSc)
-    on three high-performance computing systems hosted by Australian research and
-    computing facilities: [Lyra (Queensland University of Technology)](https://eresearchqut.atlassian.net/wiki/spaces/EG/pages/1545143157/Start+using+the+HPC),
-    [Gadi (National Computational Infrastructure)](https://opus.nci.org.au/display/Help/Gadi+User+Guide)
-    and [Setonix (Pawsey)](https://support.pawsey.org.au/documentation/display/US/Setonix+User+Guide).
-    Throughout this guide we will make use of the Australian Nextflow Seqera Service
-    provided to the researchers by [Australian BioCommons](https://www.biocommons.org.au/). '
+- description: 'This is a guide outlining how to set up and execute <a href="https://github.com/eresearchqut/ONTViSc">the ONTViSc pipeline</a> on three high-performance computing systems hosted by Australian research and computing facilities: <a href="https://eresearchqut.atlassian.net/wiki/spaces/EG/pages/1545143157/Start+using+the+HPC">Lyra (Queensland University of Technology)</a>, <a href="https://opus.nci.org.au/display/Help/Gadi+User+Guide">Gadi (National Computational Infrastructure)</a>, and <a href="https://support.pawsey.org.au/documentation/display/US/Setonix+User+Guide">Setonix (Pawsey Supercomputing Research Centre)</a>. Throughout this guide we will make use of the Australian Nextflow Seqera Service provided to the researchers by Australian BioCommons.'
   id: ontvisc_hpc_seqera_service_guide
   name: ONTViSc pipeline on HPC using Australian Nextflow Seqera Service
   registry: {}
   related_pages:
   - metagenomics
   url: https://mantczakaus.github.io/ontvisc_hpc_seqera_service_guide/
-- description: A collection of how-tos and example code for running comparative tests
+- description: A collection of How-tos and example code for running comparative tests
     on in-situ single cell spatial RNA experiments.
   id: spatialsampler
   name: Spatial Sampler- Spatial transcriptomics howtos
@@ -142,3 +136,5 @@
   related_pages:
   - transcriptomics
   url: https://swbioinf.github.io/spatialsnippets/index.html
+
+

@@ -1,8 +1,12 @@
 ---
 title: Documentation
-type: category
+description: Guidelines for documentation and creation of new How-to Guides.
+type: Scientific domain / method
 page_id: documentation
-description: How-to Guides focused on documentation guidelines and creation of new How-to Guides.
+tile_id: domain
+toc: false
 ---
 
+
+## How-to Guides
 
