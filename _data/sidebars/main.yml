@@ -1,13 +1,9 @@
 subitems:
-  - title: About
-    url: /index
-  - title: View all guides
-    url: /all_guides
-  - title: Categories
+  - title: Scientific domain / method
     subitems:
-      - title: Genome assembly
-        url: /genome_assembly
-      - title: Genome annotation
+      - title: How-to document
+        url: /documentation
+      - title: Genome assembly & annotation
         url: /genome_annotation
       - title: Metagenomics
         url: /metagenomics
@@ -17,10 +13,14 @@ subitems:
         url: /structural_biology
       - title: Transcriptomics
         url: /transcriptomics
-      - title: How-to document
-        url: /documentation
-  - title: How-to contribute
+      - title: Bioinformatics workflows
+        url: /workflows
+  - title: Full list of How-to Guides
+    url: /all_guides
+  - title: Create How-to Guides and documentation
     url: /contributing
+  - title: Find software
+    url: /software
   - title: Contributors
     url: /contributors
   
