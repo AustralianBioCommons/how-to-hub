@@ -1,9 +1,11 @@
 ---
-title: Bioinformatics How-to Guides
+title: View all How-to Guides
 type: How-to
 page_id: guides
+tile_id: how-to
 description: An interactive list of available How-to Guides that support the reuse of bioinformatics tools, workflows and data on Australian compute systems and digital research infrastructure.
 datatable: true
+toc: false
 ---
 
 
@@ -17,7 +19,7 @@ If you have an idea for a new How-to Guide, or a new category, please visit the 
 
 ## How-to Guides list
 
-{% include callout.html type="important" content="The How-to Guides are also organised into categories, which you can access via the navigation bar on the left." %}
+{% include callout.html type="important" content="The How-to Guides, and other resources, are also organised by scientific domain / method, which you can access via the navigation bar on the left." %}
 
 {% include resource-table-all.html %}
 
