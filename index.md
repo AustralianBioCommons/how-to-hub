@@ -9,15 +9,19 @@ This central hub is designed to help you find the **documentation and guidance m
 
 This includes links to platform and service documentation, support documentation and How-to Guides, and even support (e.g. templates, conventions, standards) for creating your own documentation and guides.
 
+## Resources by scientific domain or method
 
-## Support available on this site
-
-{% include section-navigation-tiles_pages.html type ="How-to" col = "2" %}
+{% include section-navigation-tiles_pages.html type ="Scientific domain / method" %}
 
 
-## Documentation available for services, platforms, and activities
+## What would you like to do?
 
-{% include section-navigation-tiles_mod.html type ="Service" col = "2" %}
+{% include section-navigation-tiles_pages.html type ="How-to" %}
+
+
+## Direct links to documentation for services
+
+{% include section-navigation-tiles_mod.html type ="Service" %}
 
 
 ## Get involved
@@ -27,5 +31,5 @@ More info coming soon.
 
 ## Acknowledgements
 
-This work is supported by [Australian BioCommons](https://www.biocommons.org.au/) via funding from [Bioplatforms Australia](https://bioplatforms.com/) and the Queensland Government Research Infrastructure Co-investment Fund (RICF) programme. Bioplatforms Australia is funded by the National Collaborative Research Infrastructure Strategy (NCRIS).
+How-to Hub is supported by [Australian BioCommons](https://www.biocommons.org.au/) via funding from [Bioplatforms Australia](https://bioplatforms.com/). Bioplatforms Australia is funded by the National Collaborative Research Infrastructure Strategy (NCRIS).
  
