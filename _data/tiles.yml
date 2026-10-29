@@ -2,24 +2,49 @@
   description: "Provides access to (1) computational and data infrastructure, (2) specialised expertise, (3) support for adopting best practices and sharing outputs, and (4) a community-driven repository of bioinformatics software."
   url: https://australianbiocommons.github.io/ables/index
   type: Service
-  category: Compute
+  resource_category: Compute
 - title: "BioShell"
   description: "A ready-to-use cloud bioinformatics environment for life-science researchers, trainers, and developers."
   url: https://sydney-informatics-hub.github.io/BioShell-User-Guide/
   type: Service
-  category: Cloud bioinformatics environment
+  resource_category: Cloud bioinformatics environment
 - title: "The Australian Nextflow Seqera Service"
   description: "Provides access to a centralised web platform for managing, launching, and monitoring the execution of Nextflow bioinformatics pipelines on Seqera-compatible compute environments."
   url: https://australianbiocommons.github.io/nextflow-seqera/
   type: Service
-  category: Workflow execution
-- title: "Australian Tree of Life"
-  description: "Infrastructure for the rapid generation and publication of genome assemblies and annotations."
-  url: https://australianbiocommons.github.io/atol/
-  type: Service
-  category: Genome assemblies and annotations
+  resource_category: Workflow execution
 - title: "Australian Apollo Service"
   description: "Hosting of genome assembly and supporting evidence files, so you and your team can focus on the annotation curation itself."
   url: https://apollo-portal.genome.edu.au/resources/documentation/
   type: Service
-  category: Genome annotations
+  resource_category: Genomics
+- title: "WorkflowHub"
+  description: "A registry for describing, sharing and publishing scientific computational workflows."
+  url: https://workflowhub.eu/
+  type: Workflow-registry
+  resource_category: Workflow registry
+- title: "Dockstore"
+  description: ""
+  url: https://dockstore.org/
+  type: Workflow-registry
+  resource_category: Tool and workflow registry
+- title: "ToolFinder"
+  description: "Bioinformatics software installed across BioCommons infrastructure partner systems, including Gadi, Australian BioCommons Tools and Workflows repository at NCI, Setonix, Bunya, and Galaxy Australia."
+  url: https://australianbiocommons.github.io/toolfinder/
+  type: Software-registry
+  resource_category: Software registry
+- title: "Pawsey containers"
+  description: "Container images provided by the Pawsey Supercomputing Research Centre (Perth, Western Australia)."
+  url: https://pawsey.atlassian.net/wiki/spaces/US/pages/51925896/Pawsey-Provided+Container+Images
+  type: Container-resource
+  resource_category: Tier1 HPC containers
+- title: "BioContainers"
+  description: "A community led effort to create, host, and maintain research software containers."
+  url: https://github.com/BioContainers
+  type: Container-resource
+  resource_category: Container registry
+- title: "ELIXIR Research Software Ecosystem (RSEc) Atlas"
+  description: ""
+  url: https://research-software-ecosystem.org/RSEc-Atlas/
+  type: Software-registry
+  resource_category: Software Atlas
